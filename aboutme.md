@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: プロフィール
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+名前：山本 健児 (Yamamoto Kenji)  
+名古屋出身、大阪在住
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Web Page：[https://kenji.jp](https://kenji.jp)  
+Twitter：[@kenjinote](https://twitter.com/kenjinote)
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+興味があること
+- プログラミング (C / C++ / C# / アセンブリ言語 / Haskell)
+- 数学 (代数 / 暗号)
+- ゲーム (スプラトゥーン / 風来のシレン / パズルゲーム)
