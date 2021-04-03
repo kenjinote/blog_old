@@ -11,6 +11,9 @@ title: hack.jp
 # Your name to show in the footer
 author: kenjinote
 
+# multilang
+default_lang: "ja"
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
