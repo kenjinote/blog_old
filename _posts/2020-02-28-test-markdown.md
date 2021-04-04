@@ -1,38 +1,39 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: サンプル投稿
+subtitle: 各投稿にはサブタイトルをつけられます
+gh-repo: kenjinote/cmdchat
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+この記事は確認用のデモの投稿となります。マークダウンで記述しています。
+マークダウン記法を学ぶには [こちら](https://markdowntutorial.com/) のページが参考になります。
 
-**Here is some bold text**
+**太字のテキストはアスタ2つで囲います**
 
-## Here is a secondary heading
+## 2つ目の章立てはシャープ２つを行先頭に付加します
 
-Here's a useless table:
+テーブルのサンプルは下記となります。
 
-| Number | Next number | Previous number |
+| 番号 | 次の数字 | 前の数字 |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| 五 | 六 | 四 |
+| 十 | 十一 | 九 |
+| 七 | 八 | 六 |
+| 二 | 三 | 一 |
 
 
-How about a yummy crepe?
+画像を貼り付けるには下記のようにします。
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
-It can also be centered!
+センターぞろえにするには下記のようにします。
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
 
-Here's a code chunk:
+コードを貼り付ける場合は、チルダ3つで囲います。
 
 ~~~
 var foo = function(x) {
@@ -41,7 +42,7 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-And here is the same code with syntax highlighting:
+シンタックスハイライトを使うには、バッククォート3つで囲み、初めのバッククォート3つの行末に言語を指定します。
 
 ```javascript
 var foo = function(x) {
@@ -50,7 +51,7 @@ var foo = function(x) {
 foo(3)
 ```
 
-And here is the same code yet again but with line numbers:
+各行に行番号をつけるには下記のように記述します。
 
 {% highlight javascript linenos %}
 var foo = function(x) {
@@ -59,20 +60,20 @@ var foo = function(x) {
 foo(3)
 {% endhighlight %}
 
-## Boxes
-You can add notification, warning and error boxes like this:
+## ボックス
+お知らせや注意、エラーなどは下記のように枠で表示することが可能です。:
 
-### Notification
+### お知らせ
 
 {: .box-note}
-**Note:** This is a notification box.
+**Note:** お知らせですよ。
 
-### Warning
+### 警告
 
 {: .box-warning}
-**Warning:** This is a warning box.
+**Warning:** これは警告です。
 
-### Error
+### エラー
 
 {: .box-error}
-**Error:** This is an error box.
+**Error:** これはエラーです。
