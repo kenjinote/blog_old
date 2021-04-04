@@ -42,8 +42,9 @@
     </a>
   {% endif %}
 
-  <a href="https://social-plugins.line.me/lineit/share?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}">
-    LINE
+  <a href="https://social-plugins.line.me/lineit/share?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}"
+     class="btn-social-icon" title="Share on LINE">
+    <img src="https://www.line-website.com/social-plugins/img/common/square-default-large.png">
     <!--
     <div class="line-it-button" data-lang="ja" data-type="share-b" data-ver="3" data-url="https://social-plugins.line.me/ja/how_to_install#lineitbutton" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
     <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
