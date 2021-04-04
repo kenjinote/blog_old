@@ -179,7 +179,7 @@ gtag: "UA-60997585-1"
 # --- Misc --- #
 
 # Ruby Date Format to show dates of posts
-date_format: "%Y/%m/%d %H:%M:%S"
+date_format: "%Y/%m/%d"
 
 # Facebook App ID
 #fb_app_id: ""

@@ -45,8 +45,8 @@ layout: page
     </a>
 
     <p class="post-meta">
-      {% assign date_format = site.date_format | default: "%Y/%m/%d %H:%M:%S" %}
-      更新日 {{ post.date | date: date_format }}
+      {% assign date_format = site.date_format | default: "%Y/%m/%d" %}
+      {{ post.date | date: date_format }} 投稿
     </p>
 
     {% if thumbnail != "" %}
