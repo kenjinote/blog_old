@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック体', 'メイリオ', Meiryo, 'Yu Gothic', YuGothic, 'Oswald', 'ＭＳ Ｐゴシック', sans-serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
@@ -469,7 +469,7 @@ footer .footer-custom-content {
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック体', 'メイリオ', Meiryo, 'Yu Gothic', YuGothic, 'Oswald', 'ＭＳ Ｐゴシック', sans-serif;
 }
 .post-heading .post-meta {
   display: inline-block;
