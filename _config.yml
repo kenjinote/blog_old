@@ -190,7 +190,7 @@ date_format: "%Y/%m/%d"
 timezone: "Asia/Tokyo"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:title/
 paginate: 5
 
 kramdown:
