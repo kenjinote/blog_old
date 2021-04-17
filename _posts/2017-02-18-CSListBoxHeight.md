@@ -23,9 +23,9 @@ namespace WindowsFormsApplication1
       listBox1.DrawMode = DrawMode.OwnerDrawFixed;
       listBox1.ItemHeight = 200;
 
-      listBox1.Items.Add(&quot;aaa&quot;);
-      listBox1.Items.Add(&quot;bbb&quot;);
-      listBox1.Items.Add(&quot;ccc&quot;);
+      listBox1.Items.Add("aaa");
+      listBox1.Items.Add("bbb");
+      listBox1.Items.Add("ccc");
     }
 
     private void listBox1_DrawItem(object sender, DrawItemEventArgs e)
