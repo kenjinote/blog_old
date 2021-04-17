@@ -8,6 +8,7 @@ comments: true
 
 ListBoxの項目の高さを変更します。
 
+[C#コード]
 {% highlight csharp linenos %}
 using System.Drawing;
 using System.Windows.Forms;
