@@ -144,7 +144,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 
 追記: Windows 10 においては ReleaseID と呼ばれる数値（1607 とか 1703）やビルド番号の後ろにドット区切りで数値が表記されることがあります。その数値がレジストリから取得できた場合は、バージョン情報やビルド番号に追記するようにしました。(2017/09/28)
 
-参考サイト:
-[https://msdn.microsoft.com/ja-jp/library/windows/desktop/ms724439.aspx](https://msdn.microsoft.com/ja-jp/library/windows/desktop/ms724439.aspx)  
-[https://msdn.microsoft.com/en-us/library/windows/hardware/ff561910(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/hardware/ff561910(v=vs.85).aspx)  
-[http://www.atmarkit.co.jp/ait/articles/1704/04/news008_2.html](http://www.atmarkit.co.jp/ait/articles/1704/04/news008_2.html)  
+### 参考サイト
+- [https://msdn.microsoft.com/ja-jp/library/windows/desktop/ms724439.aspx](https://msdn.microsoft.com/ja-jp/library/windows/desktop/ms724439.aspx)  
+- [https://msdn.microsoft.com/en-us/library/windows/hardware/ff561910(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/hardware/ff561910(v=vs.85).aspx)  
+- [http://www.atmarkit.co.jp/ait/articles/1704/04/news008_2.html](http://www.atmarkit.co.jp/ait/articles/1704/04/news008_2.html) 
+
