@@ -1,8 +1,7 @@
 ---
 layout: post
 title: リストボックスの項目の高さを変更する
-subtitle: これはテスト投稿です。
-tags: ["C#","Windows Forms",ListBox]
+tags: [C#,Windows Forms,ListBox]
 comments: true
 ---
 
