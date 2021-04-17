@@ -141,3 +141,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
   return (int)msg.wParam;
 }
 {% endhighlight %}
+
+追記: Windows 10 においては ReleaseID と呼ばれる数値（1607 とか 1703）やビルド番号の後ろにドット区切りで数値が表記されることがあります。その数値がレジストリから取得できた場合は、バージョン情報やビルド番号に追記するようにしました。(2017/09/28)
