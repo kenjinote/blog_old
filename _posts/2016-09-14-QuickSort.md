@@ -2,7 +2,7 @@
 layout: post
 title: クイックソート(C++)
 thumbnail-img: /assets/img/quicksort.png
-tags: [C++,Windows,アルゴリズム]
+tags: [C++,ソート,アルゴリズム]
 comments: true
 ---
 
