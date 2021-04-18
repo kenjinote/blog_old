@@ -2,7 +2,7 @@
 layout: post
 title: バブルソートとクイックソートの比較（その１）(C++)
 thumbnail-img: /assets/img/sortordergraph.png
-tags: [C++,Windows]
+tags: [C++,ソート,アルゴリズム]
 comments: true
 ---
 
