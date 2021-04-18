@@ -11,8 +11,6 @@ comments: true
 ソートの手順は次のようなものです。  
 例えば、２，４、３、１という数字の並びを小さい順に並べるとき、
 
-<img src="http://hack.jp/wp-content/uploads/2016/09/bubblesort-150x300.gif" alt="bubblesort" width="150" height="300" class="aligncenter size-medium wp-image-410" />
-
 操作①　第1の数字２と第2の数字４とを比較して小さい順なのでそのままにする。  
 操作②　第2の数字４と第3の数字３とを比較して小さい順ではないので３と４を入れ替える。  
 操作③　第3の数字１と第4の数字１とを比較して小さい順ではないので１と４を入れ替える。  
