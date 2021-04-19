@@ -1,6 +1,6 @@
 ---
 layout: post
-title: メッセージボックスを親ウィンドウの中央に表示(C++)
+title: メルセンヌツイスターを使用したパスワードジェネレーター(C++)
 thumbnail-img: /assets/img/passwordgenerator.png
 tags: [C++,アルゴリズム,乱数,ツール]
 comments: true
