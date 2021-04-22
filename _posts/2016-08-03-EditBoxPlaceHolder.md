@@ -143,6 +143,3 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPTSTR pCmdLine, i
   return (int)msg.wParam;
 }
 {% endhighlight %}
-
-### 参考文献
-- [WlanGetAvailableNetworkList function (wlanapi.h)](https://docs.microsoft.com/en-us/windows/win32/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist)
