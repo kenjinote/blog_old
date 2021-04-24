@@ -99,3 +99,7 @@ EXTERN_C void __cdecl WinMainCRTStartup()
 void main(){}
 #endif
 {% endhighlight %}
+
+### 参考文献
+- [BeginPaint関数](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-beginpaint)
+- [EndPaint関数](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-endpaint)
