@@ -1,6 +1,6 @@
 ---
 layout: page
-title: プロフィール
+title: ABOUT
 ---
 
 ### 著者について
