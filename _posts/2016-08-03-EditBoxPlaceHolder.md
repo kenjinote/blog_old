@@ -152,7 +152,7 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPTSTR pCmdLine, i
 ## APIで実現する方法
 
 {: .box-note}
-**注意** この方法ではComclt32.dllバージョン6.0が必要となります。
+**注意** この方法は、Comclt32.dllバージョン6.0が必要となります。
 
 ![](/assets/img/editboxbanner.png){: .mx-auto.d-block :}
 
