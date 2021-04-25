@@ -6,8 +6,8 @@ tags: [C++,Window]
 comments: true
 ---
 
-タイトルバーのドラッグ等で動かすことができないウィンドウを作成するには、システムメニュー項目の移動（SC_MOVE）を削除することで実現できます。
-この方法の応用で、閉じるボタン(SC_CLOSE)を無効にしたり、サイズ変更(SC_SIZE)を無効にしたりすることもできます。
+タイトルバーのドラッグ等で動かすことができないウィンドウを作成するには、システムメニュー項目の移動`SC_MOVE`を削除することで実現できます。
+この方法の応用で、閉じるボタン`SC_CLOSE`を無効にしたり、サイズ変更`SC_SIZE`を無効にしたりすることもできます。
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/NoMoveWindow/archive/master.zip)
 
@@ -75,7 +75,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-システムメニューの項目を削除する方法以外にも、WM_SYSCOMMAND メッセージの SC_MOVE に対して、デフォルトの処理を行わないことでウィンドウの移動をさせないようにできます。
+システムメニューの項目を削除する方法以外にも、`WM_SYSCOMMAND`メッセージの`SC_MOVE`に対して、デフォルトの処理を行わないことでウィンドウの移動をさせないようにできます。
 
 ### 参考文献
 - [http://smdn.jp/programming/tips/disable_window_moving](http://smdn.jp/programming/tips/disable_window_moving)
