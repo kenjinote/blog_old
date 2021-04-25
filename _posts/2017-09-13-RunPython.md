@@ -1,17 +1,19 @@
 ---
 layout: post
-title: 入力された Python のコードを動的に実行する単体プログラム(C++)
+title: 入力された Pythonのコードを動的に実行する単体プログラム(C++)
 thumbnail-img: /assets/img/runpython.png
 tags: [C++,Python,ツール]
 comments: true
 ---
 
 前回、[Pythonのインストール](https://hack.jp/Python/)
-について書きましたが、Python がインストールされていない環境でも簡単に Python のコードを動的に実行できるプログラムを作りました。
+について書きましたが、Pythonがインストールされていない環境でも簡単にPythonのコードを動的に実行できるプログラムを作りました。
 
-プログラムの中に pythonw.exe などPythonのコードを実行するために必要なファイルが埋め込んで、起動時に関連ファイル群をtempフォルダに展開し、入力された Python のコードを実行できるようにしています。プログラムの終了時に展開された関連ファイル群を削除しています。
+プログラムの中にpythonw.exeなどPythonのコードを実行するために必要なファイルが埋め込んで、
+起動時に関連ファイル群をtempフォルダに展開し、入力されたPythonのコードを実行できるようにしています。
+プログラムの終了時に展開された関連ファイル群を削除しています。
 
-プログラム内に埋め込められている Python のバージョンは 3.5.2 (32bit) です。
+プログラム内に埋め込められているPythonのバージョンは3.5.2(32bit)です。
 ※シンプルなPythonコードが動く最小の環境になっているため、標準搭載のライブラリでもimportできないものがあります。
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/RunPython/archive/master.zip)
