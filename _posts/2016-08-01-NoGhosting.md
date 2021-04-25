@@ -9,7 +9,10 @@ comments: true
 
 この状態は、Ghost 状態と呼ばれる。この状態へ移行しないようにするための関数が用意されています。
 
-<a href="https://msdn.microsoft.com/ja-jp/library/ms648415(v=vs.85).aspx">DisableProcessWindowsGhosting</a> 関数
+<a href="https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting">DisableProcessWindowsGhosting</a> 関数
 
 この関数を使えば、プログラムを Ghost 状態へ移行しないようにすることができます。
 一度この関数を読んでしまうと再び Ghost 状態へ移行するようにすることはできないようです。
+
+### 参考文献
+- [DisableProcessWindowsGhosting function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting)

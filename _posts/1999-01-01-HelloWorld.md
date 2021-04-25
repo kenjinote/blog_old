@@ -102,5 +102,5 @@ void main(){}
 
 ### 参考文献
 - [/ENTRY (エントリ ポイント シンボル)](https://docs.microsoft.com/ja-jp/cpp/build/reference/entry-entry-point-symbol)
-- [BeginPaint関数](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-beginpaint)
-- [EndPaint関数](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-endpaint)
+- [BeginPaint function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-beginpaint)
+- [EndPaint function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-endpaint)
