@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/helloworld.png
 tags: [C++,Windows,描画,HelloWorld]
 ---
 
-![helloworld.png](/assets/img/helloworld.png){: .mx-auto.d-block :}
+![](/assets/img/helloworld.png){: .mx-auto.d-block :}
 
 Windows の GUI プログラムで Hello World を表示するサンプルプログラムの紹介です。
 Windows で GUI プログラムを作成するうえで、最もシンプルなものとなります。

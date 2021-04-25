@@ -6,7 +6,7 @@ tags: [C++,Wi-Fi,ツール]
 comments: true
 ---
 
-![getwifisignalstrength](/assets/img/getwifisignalstrength.png){: .mx-auto.d-block :}
+![](/assets/img/getwifisignalstrength.png){: .mx-auto.d-block :}
 
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/GetWiFiSignalStrength/archive/master.zip)

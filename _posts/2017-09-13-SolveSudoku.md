@@ -6,7 +6,7 @@ tags: [C++,アルゴリズム,パズル,ゲーム]
 comments: true
 ---
 
-![solvesudoku](/assets/img/solvesudoku.png){: .mx-auto.d-block :}
+![](/assets/img/solvesudoku.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/SolveSudoku/archive/master.zip)
 

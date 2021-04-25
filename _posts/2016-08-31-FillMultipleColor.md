@@ -17,7 +17,7 @@ comments: true
 そんな場合は、GDI+のImageAttributesにSetRemapTable関数を使って複数の色の対応を入力してやると、
 複数の色を同時に塗り替えることができます。
 
-![fillmultiplecolor.png](/assets/img/fillmultiplecolor.png){: .mx-auto.d-block :}
+![](/assets/img/fillmultiplecolor.png){: .mx-auto.d-block :}
 左の4色をランダムな色に塗り分けるサンプル
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/GdiplusChangeColorsSetRemapTable/archive/master.zip)
