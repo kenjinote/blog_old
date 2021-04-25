@@ -6,6 +6,8 @@ tags: [C++,button,bitmap]
 comments: true
 ---
 
+![](/assets/img/bitmapbutton.png){: .mx-auto.d-block :}
+
 任意のビットマップの背景を持つボタンの作成サンプルです。
 
 実装方針は、普通のボタンを作成し、ボタンのウィンドウプロシージャを独自に書き換えます。その際に、
