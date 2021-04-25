@@ -8,6 +8,8 @@ comments: true
 
 ## 自前で入力ヒントを描画する方法
 
+![](/assets/img/editboxplaceholder.png){: .mx-auto.d-block :}
+
 エディットボックスの初期表示(エディットボックスに何も入力されていないとき）に何を入力すべきかユーザーに示すために薄くヒントとなる文字列（プレースフォルダー）を表示するサンプルです。
 エディットボックスのウィンドウプロシージャを独自に処理して、入力ヘルプを描画する方法です。
 
@@ -149,7 +151,8 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPTSTR pCmdLine, i
 
 ## APIで実現する方法
 
-{: .box-note} この方法ではComclt32.dllバージョン6.0が必要となります。
+{: .box-note}
+**注意** この方法ではComclt32.dllバージョン6.0が必要となります。
 
 ![](/assets/img/editboxbanner.png){: .mx-auto.d-block :}
 
