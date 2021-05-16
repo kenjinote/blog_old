@@ -1,12 +1,12 @@
 ---
 layout: post
-title: EditBox にヒント（プレースフォルダー）を表示する(C++)
+title: EditBoxにヒント（プレースフォルダー）を表示する(C++)
 thumbnail-img: /assets/img/editboxplaceholder.png
 tags: [C++,Editbox]
 comments: true
 ---
 
-## 自前で入力ヒントを描画する方法
+## 自前で入力ヒントを描画する方法（サブクラス化）
 
 ![](/assets/img/editboxplaceholder.png){: .mx-auto.d-block :}
 
@@ -157,6 +157,8 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPTSTR pCmdLine, i
 ![](/assets/img/editboxbanner.png){: .mx-auto.d-block :}
 
 EditBoxのメッセージ`EM_SETCUEBANNER`を使うと、グレーの入力ヘルプを簡単に表示させることができます。
+
+（ただ、文字色の指定が出来ないので、色を独自に変えるには上記で紹介したエディットボックスのサブクラス化を行う必要があると思います。）
 
 {% highlight cpp linenos %}
 #pragma comment(linker,"\"/manifestdependency:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
