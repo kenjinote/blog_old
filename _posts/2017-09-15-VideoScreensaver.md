@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 動画スクリーンセーバー(C++)
+subtitle: mp4などの動画ファイルをスクリーンセイバーとして表示できます。
 thumbnail-img: /assets/img/videoscreensaver.png
 tags: [C++,スクリーンセーバー,動画,ツール]
 comments: true
