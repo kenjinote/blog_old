@@ -7,8 +7,6 @@ tags: [C++,スクリーンセーバー,動画,ツール]
 comments: true
 ---
 
-![](/assets/img/videoscreensaver.png){: .mx-auto.d-block :}
-
 動画を全画面で再生するスクリーンセーバーを作成しました。マルチディスプレイ対応ですべてのディスプレイに再生中の映像を表示します。
 
 - 複数動画を指定可能
@@ -16,6 +14,8 @@ comments: true
 - ランダム再生
 - マルチディスプレイ対応
 - インストーラ（インストール/アンインストール）付き
+
+![](/assets/img/videoscreensaver.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/videoscreensaver/archive/master.zip)
 
