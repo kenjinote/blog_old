@@ -6,8 +6,9 @@ tags: [C++,Wi-Fi,ツール]
 comments: true
 ---
 
-![](/assets/img/getwifisignalstrength.png){: .mx-auto.d-block :}
+現在接続しているWi-Fiのシグナルの強度を取得するサンプルプログラムです。
 
+![](/assets/img/getwifisignalstrength.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/GetWiFiSignalStrength/archive/master.zip)
 
