@@ -6,6 +6,8 @@ tags: [C++,アルゴリズム,パズル,ゲーム]
 comments: true
 ---
 
+数独を解くプログラムです。初期で定まっている数字を指定し、`解く`ボタンをクリックすると数独の解いてきます。
+
 ![](/assets/img/solvesudoku.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/SolveSudoku/archive/master.zip)
