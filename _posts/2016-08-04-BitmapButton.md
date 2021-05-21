@@ -6,12 +6,12 @@ tags: [C++,button,bitmap]
 comments: true
 ---
 
-![](/assets/img/bitmapbutton.png){: .mx-auto.d-block :}
-
-任意のビットマップの背景を持つボタンの作成サンプルです。
+任意のビットマップの背景を持つボタンのサンプルプログラムです。
 
 実装方針は、普通のボタンを作成し、ボタンのウィンドウプロシージャを独自に書き換えます。その際に、
 `WM_PRINTCLIENT`メッセージと`WM_ERASEBKGND`メッセージに対してビットマップを描画する処理を記述します。
+
+![](/assets/img/bitmapbutton.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/BitmapButton/archive/master.zip)
 
