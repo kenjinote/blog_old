@@ -6,10 +6,10 @@ tags: [WPF,ウィンドウ]
 comments: true
 ---
 
-![](/assets/img/showactivated.png){: .mx-auto.d-block :}
-
 WPFで起動時ウィンドウをアクティブ化しないようにするには、XamlでWindowのプロパティで、
 ShowActivated="False"と設定すると実現できます。
+
+![](/assets/img/showactivated.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/ShowActivated/archive/master.zip)
 
