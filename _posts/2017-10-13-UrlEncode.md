@@ -6,6 +6,9 @@ tags: [C++,文字列変換,URLエンコード,ツール]
 comments: true
 ---
 
+URLエンコード・デコード（別名パーセントエンコーディング）を行うツールです。
+`UTF-8`の文字コードで符号化したうえで、1文字ずつ変換を行っていきます。
+
 ![](/assets/img/urlencode.png){: .mx-auto.d-block :}
 
 
