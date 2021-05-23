@@ -1,11 +1,14 @@
 ---
 layout: post
-title: DisableProcessWindowsGhosting 関数を使って応答なし表示に移行しないようにする(C++)
+title: DisableProcessWindowsGhosting関数を使って応答なし表示に移行しないようにする(C++)
+thumbnail-img: /assets/img/noghosting.png
 tags: [C++,応答なし]
 comments: true
 ---
 
 ウィンドウを表示するプログラムで、時間がかかるループの処理などを行いメッセージを処理しない状態が続くと、ウィンドウのタイトルバーに「応答なし」という文字が追加され、薄く白いウィンドウ表示になってしまいます。
+
+![](/assets/img/noghosting.png){: .mx-auto.d-block :}
 
 この状態は、Ghost 状態と呼ばれる。この状態へ移行しないようにするための関数が用意されています。
 
