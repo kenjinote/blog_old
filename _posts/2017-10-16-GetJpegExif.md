@@ -2,7 +2,7 @@
 layout: post
 title: GDI+を使ってJPEGのExif情報を取得する(C++)
 thumbnail-img: /assets/img/getjpegexif.png
-tags: [C++,Jpeg,画像,ツール]
+tags: [C++,Jpeg,Exif,画像,ツール]
 comments: true
 ---
 
