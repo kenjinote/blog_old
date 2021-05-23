@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 入力された Pythonのコードを動的に実行する単体プログラム(C++)
+title: 入力されたPythonのコードを動的に実行する単体プログラム(C++)
 thumbnail-img: /assets/img/runpython.png
 tags: [C++,Python,ツール]
 comments: true

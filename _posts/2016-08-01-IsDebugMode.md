@@ -1,11 +1,11 @@
 ---
 layout: post
-title: CheckRemoteDebuggerPresent 関数を使って動的にデバッグ中かどうか確認する(C++)
+title: プログラムがデバッグ中かどうか判別する(C++)
 tags: [C++,デバッグ]
 comments: true
 ---
 
-実行中のプロセスから現在デバッグモードで起動しているかどうか判別する関数に CheckRemoteDebuggerPresent 関数というものがある。
+実行中のプロセスから現在デバッグモードで起動しているかどうか判別する関数として、CheckRemoteDebuggerPresent関数があります。
 使用例は下記の通りです。
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/GetWiFiSignalStrength/archive/master.zip)

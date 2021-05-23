@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Picturebox に貼り付けた画像を印刷する(VB)
+title: Pictureboxに貼り付けた画像を印刷する(VB)
 thumbnail-img: /assets/img/printpicturebox.png
 tags: [Visual Basic,Picturebox,印刷]
 comments: true

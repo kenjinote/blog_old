@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DisableProcessWindowsGhosting関数を使って応答なし表示に移行しないようにする(C++)
+title: プログラムが応答なし表示状態に移行しないようにする(C++)
 thumbnail-img: /assets/img/noghosting.png
 tags: [C++,応答なし]
 comments: true
@@ -10,12 +10,12 @@ comments: true
 
 ![](/assets/img/noghosting.png){: .mx-auto.d-block :}
 
-この状態は、Ghost 状態と呼ばれる。この状態へ移行しないようにするための関数が用意されています。
+この状態は、Ghost状態と呼ばれます。この状態へ移行しないようにするための関数が用意されています。
 
 <a href="https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting">DisableProcessWindowsGhosting</a> 関数
 
-この関数を使えば、プログラムを Ghost 状態へ移行しないようにすることができます。
-一度この関数を読んでしまうと再び Ghost 状態へ移行するようにすることはできないようです。
+この関数を使えば、プログラムをGhost状態へ移行しないようにすることができます。
+一度この関数を読んでしまうと再びGhost状態へ移行するようにすることはできないようです。
 
 ### 参考文献
 - [DisableProcessWindowsGhosting function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting)
