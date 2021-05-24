@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GDI+で複数の色を同時に塗り替える(C++)
+subtitle: 色を入れ替えるとき便利です
 thumbnail-img: /assets/img/fillmultiplecolor.png
 tags: [C++,GDI+,塗り潰し,画像,色]
 comments: true

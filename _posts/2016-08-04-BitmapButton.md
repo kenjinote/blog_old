@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ビットマップボタン(C++)
+subtitle: 任意のかっこいいボタンを作れます
 thumbnail-img: /assets/img/bitmapbutton.png
 tags: [C++,button,bitmap]
 comments: true

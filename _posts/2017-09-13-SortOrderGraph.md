@@ -1,6 +1,7 @@
 ---
 layout: post
 title: バブルソートとクイックソートの比較（その１）(C++)
+subtitle: 速度比較のグラフ化
 thumbnail-img: /assets/img/sortordergraph.png
 tags: [C++,ソート,アルゴリズム]
 comments: true

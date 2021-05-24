@@ -1,6 +1,7 @@
 ---
 layout: post
 title: プログラムがデバッグ中かどうか判別する(C++)
+subtitle: デバッグ時と処理を変えたい場合
 thumbnail-img: /assets/img/isdebugmode.png
 tags: [C++,デバッグ]
 comments: true

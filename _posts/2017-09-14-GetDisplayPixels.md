@@ -1,12 +1,14 @@
 ---
 layout: post
 title: マルチディスプレイ環境で各ディスプレイの解像度を取得する(C++)
+subtitle: トレーダーの環境で実行してみたい
 thumbnail-img: /assets/img/getdisplaypixels.png
 tags: [C++,マルチディスプレイ,解像度,ツール]
 comments: true
 ---
 
-マルチディスプレイ環境で各ディスプレイの解像度を取得するには  関数を使用して、渡ってきたモニターハンドル HMONITOR に対して GetMonitorInfo 関数および EnumDisplaySettings 関数を使って解像度を取得できます。
+マルチディスプレイ環境で各ディスプレイの解像度を取得するには、関数を使用して渡ってきたモニターハンドル`HMONITOR`に対して
+`GetMonitorInfo`関数および`EnumDisplaySettings`関数を使って解像度を取得できます。
 
 ![](/assets/img/getdisplaypixels.png){: .mx-auto.d-block :}
 

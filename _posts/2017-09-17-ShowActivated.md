@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 起動時ウィンドウをアクティブ化しないようにする(WPF)
+subtitle: たった一つのプロパティを設定するのみ
 thumbnail-img: /assets/img/showactivated.png
 tags: [WPF,ウィンドウ]
 comments: true

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: バブルソートとクイックソートの比較（その２）(C++)
+subtitle: ソードの実行をGifアニメに
 thumbnail-img: /assets/img/sortanimationgif.gif
-tags: [C++,ソート,アルゴリズム]
+tags: [C++,ソート,アルゴリズム,GIFアニメーション]
 comments: true
 ---
 

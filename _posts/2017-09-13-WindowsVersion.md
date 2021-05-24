@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Windowsのバージョンを取得(C++)
+subtitle: バージョンに合わせて処理を変えたいときなどに
 thumbnail-img: /assets/img/windowsversion.png
 tags: [C++,Windows]
 comments: true
 ---
 
-Windowsの内部バージョンを取得するには、GetVersion 関数が使えるが、この関数はWindows 8 以降マニフェストで対応OSを明記していないと正しい値を返さない。
+Windowsの内部バージョンを取得するには、`GetVersion`関数が使えるが、この関数はWindows 8 以降マニフェストで対応OSを明記していないと正しい値を返さない。
 
-代わりに、ntdll.dllに定義されている RtlGetVersion 関数を使うことでマニフェストで明記しなくても正しくOSのバージョンを取得できるようです。
-以下のプログラムでは、GetVersion 関数を使ってOSのバージョンを取得し、もし RtlGetVersion 関数が使える場合は OS のバージョンを上書きして画面上に表示するサンプルです。
+代わりに、ntdll.dllに定義されている`RtlGetVersion`関数を使うことでマニフェストで明記しなくても正しくOSのバージョンを取得できるようです。
+以下のプログラムでは、`GetVersion`関数を使ってOSのバージョンを取得し、もし`RtlGetVersion`関数が使える場合は OS のバージョンを上書きして画面上に表示するサンプルです。
 
 ![](/assets/img/windowsversion.png){: .mx-auto.d-block :}
 

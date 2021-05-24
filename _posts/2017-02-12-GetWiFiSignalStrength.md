@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 現在接続しているWi-Fiのシグナル強度を取得する(C++)
+subtitle: とんでるWi-Fiみることできる？
 thumbnail-img: /assets/img/getwifisignalstrength.png
 tags: [C++,Wi-Fi,ツール]
 comments: true

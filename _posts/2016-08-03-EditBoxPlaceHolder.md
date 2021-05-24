@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EditBoxにヒント（プレースフォルダー）を表示する(C++)
+subtitle: スペースの有効活用かつわかりやすい
 thumbnail-img: /assets/img/editboxplaceholder.png
 tags: [C++,Editbox]
 comments: true

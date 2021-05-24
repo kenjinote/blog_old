@@ -1,6 +1,7 @@
 ---
 layout: post
 title: リストボックスの項目の高さを変更する(C#)
+subtitle: C#はよくできてる
 thumbnail-img: /assets/img/formslistboxitemheight.png
 tags: [C#,Windows Forms,ListBox]
 comments: true

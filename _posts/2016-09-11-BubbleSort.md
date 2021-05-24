@@ -1,6 +1,7 @@
 ---
 layout: post
 title: バブルソート(C++)
+subtitle: 実行時間が膨らむ泡のような並べ替え
 thumbnail-img: /assets/img/bubblesort.png
 tags: [C++,ソート,アルゴリズム]
 comments: true

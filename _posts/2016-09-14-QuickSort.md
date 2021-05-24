@@ -1,6 +1,7 @@
 ---
 layout: post
 title: クイックソート(C++)
+subtitle: 速い並ベ替え
 thumbnail-img: /assets/img/quicksort.png
 tags: [C++,ソート,アルゴリズム]
 comments: true

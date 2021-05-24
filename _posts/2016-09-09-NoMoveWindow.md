@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 移動できないウィンドウを作成(C++)
+subtitle: 頑固なおひとだ
 thumbnail-img: /assets/img/nomovewindow.png
 tags: [C++,Window]
 comments: true

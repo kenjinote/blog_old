@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WebBrowserコントロールでGPUレンダリングを有効にするには
+subtitle: WebGLを使うときはぜひ有効に
 thumbnail-img: /assets/img/webbrowsergpurendering.png
 tags: [C++,ブラウザ,GPU,IEコンポーネント]
 comments: true

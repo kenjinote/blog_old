@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 入力されたPythonのコードを動的に実行する単体プログラム(C++)
+subtitle: Pythonをインストールする必要はありません
 thumbnail-img: /assets/img/runpython.png
 tags: [C++,Python,ツール]
 comments: true

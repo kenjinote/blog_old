@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello World
-subtitle: WindowsのGUIでHello Worldを表示する
+title: Hello World(C++)
+subtitle: GUIでHello Worldを表示する
 thumbnail-img: /assets/img/helloworld.png
 tags: [C++,Windows,描画,HelloWorld]
 ---
