@@ -1,12 +1,15 @@
 ---
 layout: post
 title: プログラムがデバッグ中かどうか判別する(C++)
+thumbnail-img: /assets/img/isdebugmode.png
 tags: [C++,デバッグ]
 comments: true
 ---
 
 実行中のプロセスから現在デバッグモードで起動しているかどうか判別する関数として、CheckRemoteDebuggerPresent関数があります。
 使用例は下記の通りです。
+
+![](/assets/img/isdebugmode.png){: .mx-auto.d-block :}
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/IsDebugMode/archive/master.zip)
 
