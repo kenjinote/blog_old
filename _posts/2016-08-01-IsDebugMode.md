@@ -8,7 +8,7 @@ comments: true
 実行中のプロセスから現在デバッグモードで起動しているかどうか判別する関数として、CheckRemoteDebuggerPresent関数があります。
 使用例は下記の通りです。
 
-[プロジェクトのダウンロード](https://github.com/kenjinote/GetWiFiSignalStrength/archive/master.zip)
+[プロジェクトのダウンロード](https://github.com/kenjinote/IsDebugMode/archive/master.zip)
 
 [C++コード]
 {% highlight cpp linenos %}
