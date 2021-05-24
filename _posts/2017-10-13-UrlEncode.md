@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 文字列のURLエンコード・デコード(C++)
-subtitle: 位置情報を含むすべての情報を列挙
+subtitle: Web検索するときのURL生成などに
 thumbnail-img: /assets/img/urlencode.png
 tags: [C++,文字列変換,URLエンコード,ツール]
 comments: true
