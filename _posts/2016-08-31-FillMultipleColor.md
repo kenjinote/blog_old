@@ -15,7 +15,7 @@ comments: true
 1. 青色の部分を赤色に塗りつぶす
 なぜなら、２の時点ですべてが青色になっているからです。
 
-そんな場合は、GDI+のImageAttributesにSetRemapTable関数を使って複数の色の対応を入力してやると、
+そんな場合は、GDI+の`ImageAttributesにSetRemapTable`関数を使って複数の色の対応を入力してやると、
 複数の色を同時に塗り替えることができます。
 
 ![](/assets/img/fillmultiplecolor.png){: .mx-auto.d-block :}
