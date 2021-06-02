@@ -27,98 +27,24 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 
 ### 寄付
 本ブログで公開しているプログラムにデジタル署名をつけたいと考えていますが、デジタル証明書（コードサイニング証明書）を発行するには料金がかかります。 デジタル署名が付与されたプログラムは、ダウンロードおよび実行時の警告メッセージ等が表示されず、手間なく利用できるようになります。本ブログから産まれたサンプルプログラムやツール類をより多くの方にお使いいただけるように資金をご支援いただけましたら幸いです。
-
-<div id="smart-button-container">
-    <div style="text-align: center"><label for="description">お名前 </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-    <div style="text-align: center"><label for="amount">寄付金 </label><input name="amountInput" type="number" id="amount" value="" ><span> JPY</span></div>
-      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
-    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
-    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
-  </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=JPY" data-sdk-integration-source="button-factory"></script>
-  <script>
-  function initPayPalButton() {
-    var description = document.querySelector('#smart-button-container #description');
-    var amount = document.querySelector('#smart-button-container #amount');
-    var descriptionError = document.querySelector('#smart-button-container #descriptionError');
-    var priceError = document.querySelector('#smart-button-container #priceLabelError');
-    var invoiceid = document.querySelector('#smart-button-container #invoiceid');
-    var invoiceidError = document.querySelector('#smart-button-container #invoiceidError');
-    var invoiceidDiv = document.querySelector('#smart-button-container #invoiceidDiv');
-    var elArr = [description, amount];
-    if (invoiceidDiv.firstChild.innerHTML.length > 1) {
-      invoiceidDiv.style.display = "block";
-    }
-    var purchase_units = [];
-    purchase_units[0] = {};
-    purchase_units[0].amount = {};
-    function validate(event) {
-      return event.value.length > 0;
-    }
-    paypal.Buttons({
-      style: {
-        color: 'silver',
-        shape: 'pill',
-        label: 'paypal',
-        layout: 'horizontal',
-      },
-      onInit: function (data, actions) {
-        actions.disable();
-        if(invoiceidDiv.style.display === "block") {
-          elArr.push(invoiceid);
-        }
-        elArr.forEach(function (item) {
-          item.addEventListener('keyup', function (event) {
-            var result = elArr.every(validate);
-            if (result) {
-              actions.enable();
-            } else {
-              actions.disable();
-            }
-          });
-        });
-      },
-      onClick: function () {
-        if (description.value.length < 1) {
-          descriptionError.style.visibility = "visible";
-        } else {
-          descriptionError.style.visibility = "hidden";
-        }
-        if (amount.value.length < 1) {
-          priceError.style.visibility = "visible";
-        } else {
-          priceError.style.visibility = "hidden";
-        }
-        if (invoiceid.value.length < 1 && invoiceidDiv.style.display === "block") {
-          invoiceidError.style.visibility = "visible";
-        } else {
-          invoiceidError.style.visibility = "hidden";
-        }
-        purchase_units[0].description = description.value;
-        purchase_units[0].amount.value = amount.value;
-        if(invoiceid.value !== '') {
-          purchase_units[0].invoice_id = invoiceid.value;
-        }
-      },
-      createOrder: function (data, actions) {
-        return actions.order.create({
-          purchase_units: purchase_units,
-        });
-      },
-      onApprove: function (data, actions) {
-        return actions.order.capture().then(function (details) {
-          alert('Transaction completed by ' + details.payer.name.given_name + '!');
-        });
-      },
-      onError: function (err) {
-        console.log(err);
-      }
-    }).render('#paypal-button-container');
-}
-initPayPalButton();
-</script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- Angular Material CSS now available via Google CDN; version 1.0.0 used here -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+        <title>Hello Angular Material</title>
+    </head>
+    <body>
+        <!-- Angular Material Dependencies -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+        <!-- Angular Material Javascript now available via Google CDN; version 1.0.0 used here -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+        <h1>Hello Angular Material!</h1>
+    </body>
+</html>
 
 ### プライバシーポリシー
 当サイト(hack.jp)では、記事の閲覧状況を把握するために、Google社のGoogleアナリティクスを利用しています。
