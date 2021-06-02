@@ -28,7 +28,7 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 ### 寄付
 本ブログで公開しているプログラムにデジタル署名をつけたいと考えていますが、デジタル証明書（コードサイニング証明書）を発行するには料金がかかります。 デジタル署名が付与されたプログラムは、ダウンロードおよび実行時の警告メッセージ等が表示されず、手間なく利用できるようになります。本ブログから産まれたサンプルプログラムやツール類をより多くの方にお使いいただけるように資金をご支援いただけましたら幸いです。
 
-<button type="button" class="btn btn-primary" onclick="location.href='http://www.paypal.me/kenjinote/500'">500円 寄付</button>
+<button type="button" class="btn btn-primary shadow" onclick="location.href='http://www.paypal.me/kenjinote/500'">500円 寄付</button>
 
 ### プライバシーポリシー
 当サイト(hack.jp)では、記事の閲覧状況を把握するために、Google社のGoogleアナリティクスを利用しています。
