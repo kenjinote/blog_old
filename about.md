@@ -23,7 +23,22 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 - ゲーム (スプラトゥーン / 風来のシレン / Mother / パズルゲーム)
 
 ## ご連絡
-お仕事のご依頼や本ブログのお問い合わせについては本ぺージの下部にあるメールかTwitterのダイレクトメッセージからお問い合わせをお願いいたします。
+お仕事のご依頼や本ブログのお問い合わせについては、下記のフォームか本ぺージの下部にあるメールかTwitterのダイレクトメッセージからお問い合わせをお願いいたします。
+<form action="https://formspree.io/f/xyylwbla" method="POST" class="form" id="contact-form">
+  <div class="row">
+    <div class="col-xs-6">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Your Email" title="Email">
+    </div>
+    <div class="col-xs-6">
+      <input type="text" name="name" class="form-control input-lg" placeholder="Your Name" title="Name">
+    </div>
+  </div>
+  <input type="hidden" name="_subject" value="New submission from hack.jp">
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
+  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+</form>
 
 ## 寄付
 本ブログで公開しているプログラムにデジタル署名をつけたいと考えていますが、デジタル証明書（コードサイニング証明書）を発行するには料金がかかります。 デジタル署名が付与されたプログラムは、ダウンロードおよび実行時の警告メッセージ等が表示されず、手間なく利用できるようになります。本ブログから産まれたサンプルプログラムやツール類をより多くの方にお使いいただけるように資金をご支援いただけましたら幸いです。
