@@ -60,6 +60,8 @@ sqlite3_close(db);
 
 これに基づいてサンプルプログラムを書いてみました。
 
+[プロジェクトのダウンロード](https://github.com/kenjinote/EnglishWordDictionary/archive/master.zip)
+
 ![](/assets/img/englishworddictionary.png){: .mx-auto.d-block :}
 
 [C++コード]
