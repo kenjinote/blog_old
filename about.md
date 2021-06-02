@@ -37,7 +37,7 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
   <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
-  <button type="submit" class="btn btn-primary" style="margin-top:10px;">Submit</button>
+  <button type="submit" class="btn btn-primary shadow" style="margin-top:10px;">Submit</button>
 </form>
 
 ## 寄付
