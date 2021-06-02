@@ -63,15 +63,14 @@ static int callback(void* hEdit2, int argc, char** argv, char** columnName)
 
 [英和辞書データ ダウンロード](https://kujirahand.com/web-tools/EJDictFreeDL.php)
 
-上記からsqliteのデータベースをダウンロードします。
-そのままでは、テーブル名や列名が分からないためsqliteのビューアで確認します。
-（sqliteのビューアのお勧めは、[DB Browser for SQLite](https://sqlitebrowser.org/)です。）
+ダウントードしてプログラムから参照しようとしたとき、そのままではテーブル名や列名が分からないため、sqliteのビューア等でデータベース内部の構成を確認します。
+（sqliteのビューアとして、お勧めは、[DB Browser for SQLite](https://sqlitebrowser.org/)です。）
 
 ![](/assets/img/dbbrowserforsqlite.png){: .mx-auto.d-block :}
 
 テーブル名が`items`、英単語列が`word`、日本語訳が`mean`となっていることが確認できます。
 
-これに基づいてサンプルプログラムを書いてみました。
+これに基づいて、入力された英単語をデータベースから検索し、日本語訳を表示するサンプルプログラムを書いてみました。
 
 [プロジェクトのダウンロード](https://github.com/kenjinote/EnglishWordDictionary/archive/master.zip)
 
