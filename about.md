@@ -29,13 +29,22 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 本ブログで公開しているプログラムにデジタル署名をつけたいと考えていますが、デジタル証明書（コードサイニング証明書）を発行するには料金がかかります。 デジタル署名が付与されたプログラムは、ダウンロードおよび実行時の警告メッセージ等が表示されず、手間なく利用できるようになります。本ブログから産まれたサンプルプログラムやツール類をより多くの方にお使いいただけるように資金をご支援いただけましたら幸いです。
 
 <div id="smart-button-container">
-    <div style="text-align: center"><label for="description">お名前 </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
-      <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-    <div style="text-align: center"><label for="amount">寄付金 </label><input name="amountInput" type="number" id="amount" value="" ><span> JPY</span></div>
-      <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
-    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
-    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+    <div style="text-align: center">
+        <label for="description">お名前 </label>
+        <input type="text" name="descriptionInput" id="description" maxlength="127" value="">
+        <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+    </div>
+    <div style="text-align: center">
+        <label for="amount">寄付金 </label>
+        <input name="amountInput" type="number" id="amount" value="" ><span> JPY</span>
+        <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+    </div>
+    <div id="invoiceidDiv" style="text-align: center; display: none;">
+        <label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" >
+        <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+    </div>
+    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container">
+    </div>
   </div>
   <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=JPY" data-sdk-integration-source="button-factory"></script>
   <script>
@@ -47,37 +56,28 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
     var invoiceid = document.querySelector('#smart-button-container #invoiceid');
     var invoiceidError = document.querySelector('#smart-button-container #invoiceidError');
     var invoiceidDiv = document.querySelector('#smart-button-container #invoiceidDiv');
-
     var elArr = [description, amount];
-
     if (invoiceidDiv.firstChild.innerHTML.length > 1) {
       invoiceidDiv.style.display = "block";
     }
-
     var purchase_units = [];
     purchase_units[0] = {};
     purchase_units[0].amount = {};
-
     function validate(event) {
       return event.value.length > 0;
     }
-
     paypal.Buttons({
       style: {
         color: 'silver',
         shape: 'pill',
         label: 'paypal',
         layout: 'horizontal',
-        
       },
-
       onInit: function (data, actions) {
         actions.disable();
-
         if(invoiceidDiv.style.display === "block") {
           elArr.push(invoiceid);
         }
-
         elArr.forEach(function (item) {
           item.addEventListener('keyup', function (event) {
             var result = elArr.every(validate);
@@ -89,46 +89,38 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
           });
         });
       },
-
       onClick: function () {
         if (description.value.length < 1) {
           descriptionError.style.visibility = "visible";
         } else {
           descriptionError.style.visibility = "hidden";
         }
-
         if (amount.value.length < 1) {
           priceError.style.visibility = "visible";
         } else {
           priceError.style.visibility = "hidden";
         }
-
         if (invoiceid.value.length < 1 && invoiceidDiv.style.display === "block") {
           invoiceidError.style.visibility = "visible";
         } else {
           invoiceidError.style.visibility = "hidden";
         }
-
         purchase_units[0].description = description.value;
         purchase_units[0].amount.value = amount.value;
-
         if(invoiceid.value !== '') {
           purchase_units[0].invoice_id = invoiceid.value;
         }
       },
-
       createOrder: function (data, actions) {
         return actions.order.create({
           purchase_units: purchase_units,
         });
       },
-
       onApprove: function (data, actions) {
         return actions.order.capture().then(function (details) {
           alert('Transaction completed by ' + details.payer.name.given_name + '!');
         });
       },
-
       onError: function (err) {
         console.log(err);
       }
