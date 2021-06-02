@@ -59,7 +59,7 @@ static int callback(void* hEdit2, int argc, char** argv, char** columnName)
 {% endhighlight %}
 
 ### SQLiteを使ったサンプルプログラム
-下記のDBを使って、英和辞書を作成します。
+下記のサイトでSQLiteのデータベースが公開されているので、それを使って英和辞書を作成します。
 
 [英和辞書データ ダウンロード](https://kujirahand.com/web-tools/EJDictFreeDL.php)
 
