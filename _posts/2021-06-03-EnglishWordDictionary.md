@@ -52,7 +52,7 @@ static int callback(void* hEdit2, int argc, char** argv, char** columnName)
 {
   if (argc == 2 && argv[0] && argv[1])
   {
-    printf("column1 = %s, column2 = %s")(argv[0], argv[1]);
+    printf("column1 = %s, column2 = %s", argv[0], argv[1]);
   }
   return SQLITE_OK;
 }
