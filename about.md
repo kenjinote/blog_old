@@ -25,11 +25,11 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 ## ご連絡
 お仕事のご依頼や本ブログのお問い合わせについては、下記のフォームか本ぺージの下部にあるメールかTwitterのダイレクトメッセージからお問い合わせをお願いいたします。
 <form action="https://formspree.io/f/xyylwbla" method="POST" class="form" id="contact-form">
-  <div class="row">
-    <div class="col-xs-6">
+  <div style="display:inline-flex">
+    <div style="margin-right:10px;margin-bottom:10px;">
       <input type="email" name="_replyto" class="form-control input-lg" placeholder="Your Email" title="Email">
     </div>
-    <div class="col-xs-6">
+    <div style="margin-right:10px;margin-bottom:10px;">
       <input type="text" name="name" class="form-control input-lg" placeholder="Your Name" title="Name">
     </div>
   </div>
@@ -37,7 +37,7 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
   <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
-  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" style="margin-top:10px;">Submit</button>
 </form>
 
 ## 寄付
