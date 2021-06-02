@@ -27,24 +27,7 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 
 ### 寄付
 本ブログで公開しているプログラムにデジタル署名をつけたいと考えていますが、デジタル証明書（コードサイニング証明書）を発行するには料金がかかります。 デジタル署名が付与されたプログラムは、ダウンロードおよび実行時の警告メッセージ等が表示されず、手間なく利用できるようになります。本ブログから産まれたサンプルプログラムやツール類をより多くの方にお使いいただけるように資金をご支援いただけましたら幸いです。
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <!-- Angular Material CSS now available via Google CDN; version 1.0.0 used here -->
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
-        <title>Hello Angular Material</title>
-    </head>
-    <body>
-        <!-- Angular Material Dependencies -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
-        <!-- Angular Material Javascript now available via Google CDN; version 1.0.0 used here -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-        <md-button>Hello Angular Material!</md-button>
-    </body>
-</html>
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
 
 ### プライバシーポリシー
 当サイト(hack.jp)では、記事の閲覧状況を把握するために、Google社のGoogleアナリティクスを利用しています。
