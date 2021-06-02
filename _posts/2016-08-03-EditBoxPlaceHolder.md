@@ -246,6 +246,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [EM _ setcuebanner メッセージ](https://docs.microsoft.com/ja-jp/windows/win32/controls/em-setcuebanner)
 - [視覚スタイルを有効にする](https://docs.microsoft.com/ja-jp/windows/win32/controls/cookbook-overview)

@@ -18,5 +18,5 @@ comments: true
 この関数を使えば、プログラムをGhost状態へ移行しないようにすることができます。
 一度この関数を読んでしまうと再びGhost状態へ移行するようにすることはできないようです。
 
-### 参考文献
+###   参考
 - [DisableProcessWindowsGhosting function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-disableprocesswindowsghosting)

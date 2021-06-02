@@ -30,5 +30,5 @@ ShowActivated="False"と設定すると実現できます。
 </Window>
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [Window.ShowActivated プロパティ](https://docs.microsoft.com/ja-jp/dotnet/api/system.windows.window.showactivated)

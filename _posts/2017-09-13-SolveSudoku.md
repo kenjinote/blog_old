@@ -456,7 +456,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - 工学社『C++活用研究』
 
 ※「数独」は株式会社ニコリの商標登録です。

@@ -78,5 +78,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 
 システムメニューの項目を削除する方法以外にも、`WM_SYSCOMMAND`メッセージの`SC_MOVE`に対して、デフォルトの処理を行わないことでウィンドウの移動をさせないようにできます。
 
-### 参考文献
+###   参考
 - [http://smdn.jp/programming/tips/disable_window_moving](http://smdn.jp/programming/tips/disable_window_moving)

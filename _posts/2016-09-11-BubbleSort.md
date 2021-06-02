@@ -142,5 +142,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献:
+###   参考:
 - [プログラミングの宝箱 アルゴリズムとデータ構造 第2版](http://amzn.to/2bNtoDH)

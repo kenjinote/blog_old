@@ -172,6 +172,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [Reading and Writing Metadata](https://docs.microsoft.com/en-us/windows/win32/gdiplus/-gdiplus-reading-and-writing-metadata-use)
 - [Image::GetAllPropertyItems method (gdiplusheaders.h)](https://docs.microsoft.com/en-us/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems)

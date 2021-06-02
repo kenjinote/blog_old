@@ -241,7 +241,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [http://www.ietf.org/rfc/rfc3986.txt](http://www.ietf.org/rfc/rfc3986.txt)
 
 Google のサイトで入力文字列の URL エンコードができるサイトがあります。（他にも Base64 や MD5 などへの変換もできるみたいですね）

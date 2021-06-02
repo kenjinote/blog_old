@@ -273,5 +273,5 @@ BOOL WINAPI RegisterDialogClasses(HANDLE hInst)
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [ScreenSaverProc function (scrnsave.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/scrnsave/nf-scrnsave-screensaverproc)

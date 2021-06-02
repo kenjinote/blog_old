@@ -145,5 +145,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [ImageAttributes.SetRemapTable メソッド](https://docs.microsoft.com/ja-jp/dotnet/api/system.drawing.imaging.imageattributes.setremaptable)

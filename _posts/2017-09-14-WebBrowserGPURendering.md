@@ -17,6 +17,6 @@ comments: true
 
 ![](/assets/img/webbrowsergpurendering.png){: .mx-auto.d-block :}
 
-### 参考文献
+###   参考
 - [Internet Feature Controls (D..H)](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/ee330731(v=vs.85)?redirectedfrom=MSDN#gpu_rendering)
 - [C# WebBrowserコントロールのGPUレンダリングについて](https://social.msdn.microsoft.com/Forums/vstudio/ja-JP/1006a1ab-b5a1-4341-87fc-56d996a062cc)

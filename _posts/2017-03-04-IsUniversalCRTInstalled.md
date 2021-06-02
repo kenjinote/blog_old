@@ -177,5 +177,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 
 Universal CRT のインストールは、Windows Update (KB2999226, KB3118401など)をあてるか、Visual Studio 2015移行をインストールすることでインストールされるようです。
 
-### 参考文献
+###   参考
 - [Windows での汎用の C ランタイムの更新プログラム](https://support.microsoft.com/ja-jp/topic/windows-%E3%81%A7%E3%81%AE%E6%B1%8E%E7%94%A8%E3%81%AE-c-%E3%83%A9%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%AE%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0-c0514201-7fe6-95a3-b0a5-287930f3560c)

@@ -100,7 +100,7 @@ void main(){}
 #endif
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [/ENTRY (エントリ ポイント シンボル)](https://docs.microsoft.com/ja-jp/cpp/build/reference/entry-entry-point-symbol)
 - [BeginPaint function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-beginpaint)
 - [EndPaint function (winuser.h)](https://docs.microsoft.com/ja-jp/windows/win32/api/winuser/nf-winuser-endpaint)

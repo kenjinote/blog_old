@@ -180,6 +180,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 }
 {% endhighlight %}
 
-### 参考文献
+###   参考
 - [ウィンドウクラスの概要 クラスの背景ブラシ](https://docs.microsoft.com/ja-jp/windows/win32/winmsg/about-window-classes#class-background-brush)
 - [WM _ ERASEBKGND メッセージ](https://docs.microsoft.com/ja-jp/windows/win32/winmsg/wm-erasebkgnd)
