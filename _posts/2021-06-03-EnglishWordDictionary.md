@@ -39,10 +39,23 @@ auto status = sqlite3_open_v2("ejdict.sqlite3", &db, SQLITE_OPEN_READONLY, nullp
 
 // SQLの実行
 char* errmsg;
-status = sqlite3_exec(db, "select * from items where word like 'abc%'", callback, nullptr, &errmsg);
+status = sqlite3_exec(db, "select column1, column2 from items where word like 'abc%'", callback, nullptr, &errmsg);
 
 // データベースを閉じる
 sqlite3_close(db);
+{% endhighlight %}
+
+`sqlite3_exec`関数の第三引数では、SQLの結果を処理するためのコールバック関数を指定します。例えば下記のような関数の形式となります。
+
+{% highlight cpp linenos %}
+static int callback(void* hEdit2, int argc, char** argv, char** columnName)
+{
+  if (argc == 2 && argv[0] && argv[1])
+  {
+    printf("column1 = %s, column2 = %s")(argv[0], argv[1]);
+  }
+  return SQLITE_OK;
+}
 {% endhighlight %}
 
 ### SQLiteを使ったサンプルプログラム
