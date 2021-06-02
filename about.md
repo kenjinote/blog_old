@@ -27,14 +27,14 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
 <form action="https://formspree.io/f/xyylwbla" method="POST" class="form" id="contact-form">
   <div style="display:inline-flex">
     <div style="margin-right:10px;margin-bottom:10px;">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Your Email" title="Email">
+      <input type="email" name="_replyto" class="form-control input-lg" placeholder="メールアドレス" title="Email">
     </div>
     <div style="margin-right:10px;margin-bottom:10px;">
-      <input type="text" name="name" class="form-control input-lg" placeholder="Your Name" title="Name">
+      <input type="text" name="name" class="form-control input-lg" placeholder="お名前" title="Name">
     </div>
   </div>
   <input type="hidden" name="_subject" value="New submission from hack.jp">
-  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
+  <textarea type="text" name="content" class="form-control input-lg" placeholder="メッセージ" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
   <button type="submit" class="btn btn-primary shadow" style="margin-top:10px;">Submit</button>
