@@ -42,7 +42,7 @@ Twitter：[@kenjinote](https://twitter.com/kenjinote)
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
         <!-- Angular Material Javascript now available via Google CDN; version 1.0.0 used here -->
         <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
-        <h1>Hello Angular Material!</h1>
+        <md-button>Hello Angular Material!</md-button>
     </body>
 </html>
 
