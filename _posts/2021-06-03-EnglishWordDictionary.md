@@ -42,7 +42,7 @@ char* errmsg;
 status = sqlite3_exec(db, "select column1, column2 from items where word like 'abc%'", callback, nullptr, &errmsg);
 
 // データベースを閉じる
-sqlite3_close(db);
+sqlite3_close_v2(db);
 {% endhighlight %}
 
 `sqlite3_exec`関数の第三引数では、SQLの結果を処理するためのコールバック関数を指定します。例えば下記のような関数の形式となります。
@@ -220,7 +220,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
         }
         GlobalFree(lpszSQL);
         GlobalFree(lpszTextA);
-        sqlite3_close(db);
+        sqlite3_close_v2(db);
       }
     }
     break;
