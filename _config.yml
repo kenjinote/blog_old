@@ -29,10 +29,6 @@ navbar-links:
 # then specify the following parameter
 #title-img: /path/to/image
 
-# --- size --- #
-page:
-  full-width: true
-
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
