@@ -29,6 +29,9 @@ navbar-links:
 # then specify the following parameter
 #title-img: /path/to/image
 
+# --- size --- #
+full-width: 1180px
+page.full-width: 1180px
 
 # --- Footer social media links --- #
 
