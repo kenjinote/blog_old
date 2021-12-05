@@ -30,8 +30,7 @@ navbar-links:
 #title-img: /path/to/image
 
 # --- size --- #
-full-width: 1180px
-page.full-width: 1180px
+full-width: true
 
 # --- Footer social media links --- #
 
