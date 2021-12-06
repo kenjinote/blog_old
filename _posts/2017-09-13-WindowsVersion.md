@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windowsのバージョンを取得(C++)
+title: Windowsのバージョンを取得
 subtitle: バージョンに合わせて処理を変えたいときなどに
 thumbnail-img: /assets/img/windowsversion.png
 tags: [C++,Windows]

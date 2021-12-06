@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQLiteを使ったデータベース検索(C++)
+title: SQLiteを使ったデータベース検索
 subtitle: 英和単語辞典を作成します
 thumbnail-img: /assets/img/englishworddictionary.png
 tags: [C++,SQLite,データベース,検索,ツール,英和単語辞典]

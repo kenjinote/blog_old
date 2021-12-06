@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GDI+を使った画像形式(png,jpeg,gif,tiff,bmp)の変換(C++)
+title: GDI+を使った画像形式(png,jpeg,gif,tiff,bmp)の変換
 subtitle: 複数の画像を一括で変換できます
 thumbnail-img: /assets/img/imageconverter.png
 tags: [C++,画像,ツール]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: メッセージボックスを親ウィンドウの中央に表示(C++)
+title: メッセージボックスを親ウィンドウの中央に表示
 subtitle: マルチディスプレイ環境では便利だったりします
 thumbnail-img: /assets/img/messageboxcenter.png
 tags: [C++,メッセージボックス]

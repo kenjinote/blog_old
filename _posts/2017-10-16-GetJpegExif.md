@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GDI+を使ってJPEGのExif情報を取得する(C++)
+title: GDI+を使ってJPEGのExif情報を取得する
 subtitle: 位置情報を含むすべての情報を列挙
 thumbnail-img: /assets/img/getjpegexif.png
 tags: [C++,Jpeg,Exif,画像,ツール]

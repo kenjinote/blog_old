@@ -1,6 +1,6 @@
 ---
 layout: post
-title: マルチディスプレイ環境で各ディスプレイの解像度を取得する(C++)
+title: マルチディスプレイ環境で各ディスプレイの解像度を取得する
 subtitle: トレーダーの環境で実行してみたい
 thumbnail-img: /assets/img/getdisplaypixels.png
 tags: [C++,マルチディスプレイ,解像度,ツール]

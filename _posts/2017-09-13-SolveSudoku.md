@@ -1,6 +1,6 @@
 ---
 layout: post
-title: コンピュータに数独を解かせる(C++)
+title: コンピュータに数独を解かせる
 subtitle: 悪用厳禁
 thumbnail-img: /assets/img/solvesudoku.png
 tags: [C++,アルゴリズム,パズル,ゲーム]

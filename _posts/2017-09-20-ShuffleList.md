@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 配列をランダムに並び替える(C++)
+title: 配列をランダムに並び替える
 subtitle: ゲームの基本は並び替え
 tags: [C++,アルゴリズム,配列]
 comments: true

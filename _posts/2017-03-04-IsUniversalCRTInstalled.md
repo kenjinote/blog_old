@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Universal CRTがインストールされているかどうかチェックする(C++)
+title: Universal CRTがインストールされているかどうかチェックする
 subtitle: コアとなるdllがロードできるか
 thumbnail-img: /assets/img/isuniversalcrtinstalled.png
 tags: [C++,Universal CRT,dll]

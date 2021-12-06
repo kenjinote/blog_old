@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ウィンドウの背景色を変更する(C++)
+title: ウィンドウの背景色を変更する
 subtitle: 色はセンスを問われる
 thumbnail-img: /assets/img/windowbackgroundcolor.png
 tags: [C++,ウィンドウ,Window,色,背景色]

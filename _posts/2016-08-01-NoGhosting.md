@@ -1,6 +1,6 @@
 ---
 layout: post
-title: プログラムが応答なし表示状態に移行しないようにする(C++)
+title: プログラムが応答なし表示状態に移行しないようにする
 subtitle: どうしても時間がかかしまう処理でスレッドを使いたくないとき用
 thumbnail-img: /assets/img/noghosting.png
 tags: [C++,応答なし]

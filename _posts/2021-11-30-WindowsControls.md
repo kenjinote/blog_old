@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windowsにおける標準コントロール一覧(C++)
+title: Windowsの標準コントロール一覧
 thumbnail-img: /assets/img/windowscontrols.png
 tags: [C++,UI,コントロール]
 comments: true

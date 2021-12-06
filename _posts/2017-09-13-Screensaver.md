@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 指定した文字列をランダムに表示するスクリーンセイバー(C++)
+title: 指定した文字列をランダムに表示するスクリーンセイバー
 subtitle: スクリーンセイバー作成の基本
 thumbnail-img: /assets/img/screensaver.png
 tags: [C++,スクリーンセーバー,ツール]

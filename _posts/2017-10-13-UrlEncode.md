@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 文字列のURLエンコード・デコード(C++)
+title: 文字列のURLエンコード・デコード
 subtitle: Web検索するときのURL生成などに
 thumbnail-img: /assets/img/urlencode.png
 tags: [C++,文字列変換,URLエンコード,ツール]
